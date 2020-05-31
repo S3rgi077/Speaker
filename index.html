@@ -12,34 +12,1001 @@
         <script src="cordova.js"></script>
     </head>
     <body>
-        <div data-role="page" id="primera">
-
-            <div data-role="header">
-                <h1>Título de la página</h1>
-            </div><!-- /header -->
-
+        <div data-role="page" id="ingresar">
+             
             <div role="main" class="ui-content">
-                <p>Contenido de la página</p>
+ <center>               <table  border="0" align="center" width="200"  height="200" bgcolor="#FE9A2E">
+        
+        
+      <tr>
+         
+         <td align=center ><h2 class="featurette-heading">Speaker</h2> 
+            </td>
+          
+     </table>
+                <h1>Iniciar sesión</h1> </center>  
+                <label for="usuario">Usuaro o correo:</label>
+<input type="text" name="usuario" id="usuario" value="">
+                
+                   <label for="clave">Contraseña:</label>
+<input type="password" name="clave" id="clave" value="">
+    <a href="#eventoscercadeti" class="ui-btn ui-corner-all">Ingresar</a>
+                <a href="#registro">Quiero registrarme</a>
             </div><!-- /content -->
 
-            <div data-role="footer" data-position="fixed">
-                <h4>Footer de la página.</h4>
-            </div><!-- /footer -->
+           
         </div><!-- /page -->
         
-        <div data-role="page" id="segunda">
+        
+        
+        
+        <div data-role="page" id="registro">
 
-            <div data-role="header">
-                <h1>Título de la página</h1>
+            
+            <div role="main" class="ui-content">
+                <h1>Registro</h1>
+                
+             <label for="nombre">Nombre:</label>
+<input type="text" name="nombre" id="nombre" value="">
+                
+                   <label for="apellido">Apellido:</label>
+<input type="text" name="apellido" id="apellido" value="">
+                
+                   <label for="edad">Edad:</label>
+<input type="text" name="edad" id="edad" value="">
+                
+                   <label for="barrio">Barrio:</label>
+<input type="text" name="barrio" id="barrio" value="">
+                
+                   <label for="celular">Número de celular:</label>
+<input type="text" name="celular" id="celular" value="">
+                
+                   <label for="correo">Correo electrónico:</label>
+<input type="text" name="correo" id="correo" value="">
+                
+                   <label for="password">Contraseña:</label>
+<input type="text" name="password" id="password" value="">
+                
+                   <label for="repetir">Repetir contraseña:</label>
+<input type="text" name="repetir" id="repetir" value="">
+                
+                
+   <a href="#eventoscercadeti" class="ui-btn ui-corner-all">Aceptar</a>             
+                
+                
+                
+            </div><!-- /content -->
+      </div>
+            
+            
+        
+        
+            <div data-role="page"id="eventoscercadeti">
+
+            
+            <div role="main" class="ui-content">
+                <h1>Eventos Cerca de ti</h1>
+                
+                
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15906.547974844305!2d-74.1592274!3d4.658652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1588812206938!5m2!1ses-419!2sco" 
+                        width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      
+              
+   
+                
+   <a href="#chatt" class="ui-btn ui-corner-all">Buscar</a>  
+                
+   <a href="#eventosenbogota" class="ui-btn ui-corner-all">Buscar en Bogotá</a>
+                
+                
+                
+            </div><!-- /content -->
+ <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#eventoscercadeti" data-icon="location" class="ui-btn-active"></a></li>
+                        <li><a href="#social" data-icon="comment"></a></li>
+                        <li><a href="#perfil" data-icon="user"></a></li>
+                    </ul>
+                </div>
+                <!-- /navbar -->
+            </div><!-- footer -->
+
+           
+        </div><!-- /page -->
+            
+            
+   ----------------------------------------------         
+        
+            <div data-role="page"id="social">
+
+            
+            <div role="main" class="ui-content">
+     <center>           <h1>Social</h1>    </center>
+                
+                
+
+     
+                
+                
+              <div data-role="navbar">
+                    <ul>
+                        <li><a href="#chats" data-icon="user">Chats</a></li>
+                        
+                    </ul>
+                </div>   
+                
+                
+                <br>
+                
+                
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#amigos" data-icon="user">amigos</a></li>
+                        
+                    </ul>
+                </div> 
+   
+                
+   
+                
+                
+            </div><!-- /content -->
+ <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#eventoscercadeti" data-icon="location"></a></li>
+                        <li><a href="#social" data-icon="comment" class="ui-btn-active"></a></li>
+                        <li><a href="#perfil" data-icon="user"></a></li>
+                    </ul>
+                </div>
+                <!-- /navbar -->
+            </div><!-- footer -->
+
+           
+        </div><!-- /page -->
+        
+        
+        
+   <div data-role="page"id="chats">
+        <div data-role="header">
+                <a href="#social" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-corner-all ui-btn-left ">No text</a>
             </div><!-- /header -->
 
+            
             <div role="main" class="ui-content">
-                <p>Contenido de la página.</p>
-            </div><!-- /content -->
+              <center>  <h1>Social</h1> </center>
+                
+           <ul data-role="listview" data-inset="true">
+       <li> <img src="Carolina%20Cruz.png">
+        <h2>Carolina Cruz</h2>
+       <p>I´m sure, it´s complicated</p>
+        </li>          
+      </ul>         
+                
+      <ul data-role="listview" data-inset="true">
+       <li> <img src="Luisa%20Mendoza.png">
+        <h2>Luisa Mendoza</h2>
+       <p>No, i didn´t</p>
+        </li>          
+      </ul>          
+                
+      <ul data-role="listview" data-inset="true">
+       <li> <img src="Mar%C3%ADna%20Ru%C3%ADz.png">
+        <h2>Mariana Ruiz</h2>
+       <p>Where are you frome</p>
+        </li>          
+      </ul>          
+                
+      <ul data-role="listview" data-inset="true">
+       <li> <img src="Andrea%20Calamaro.png">
+        <h2>Andrea Calamaro</h2>
+       <p>Yes, i´m from Bogotá</p>
+        </li>          
+      </ul>          
+                
+            
 
-            <div data-role="footer">
-                <h4>Footer de la página.</h4>
-            </div><!-- /footer -->
+      
+                
+               
+                
+                
+
+                
+                
+              
+   
+                
+   
+                
+                
+            </div><!-- /content -->
+ <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#eventoscercadeti" data-icon="location" ></a></li>
+                        <li><a href="#social" data-icon="comment" class="ui-btn-active"></a></li>
+                        <li><a href="#perfil" data-icon="user"></a></li>
+                    </ul>
+                </div>
+                <!-- /navbar -->
+            </div><!-- footer -->
+
+           
+        </div><!-- /page -->      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                
+            
+            
+         
+        
+        
+   <div data-role="page" id="eventosenbogota">
+       <div data-role="header">
+                <a href="#eventoscercadeti" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-corner-all ui-btn-left ">No text</a>
+            </div><!-- /header -->
+
+            <center>
+            <div role="main" class="ui-content">
+           <center>     <h1>Eventos en Bogotá</h1> </center>
+                    
+      
+       
+   <a href="#titan" class="ui-btn ui-corner-all">  <img src="Titan.jpg.jpg"  width="50" high="50">         
+            
+                <dl>
+           
+                <dt>Titan plaza</dt> 
+
+                <dt>10:00 a.m.</dt>
+
+                <dt>Sábado 14/Marz/2020</dt> 
+
+                  <dt>Restaurante k</dt>
+                    
+                    </dl> </a>               
+                
+                
+                
+                
+      <a href="#granestacion" class="ui-btn ui-corner-all">  <img src="granestacion.jpg.jpg"  width="50" high="50">
+
+              <dl>
+                <dt>Gran estación</dt> 
+
+                <dt>8:00 p.m.</dt>
+
+                <dt>Martes 17/Marz/2020</dt> 
+
+                  <dt>Starbuks</dt>
+               </dl>    </a>            
+    
+                
+                
+        <a href="#zonafranca" class="ui-btn ui-corner-all">  <img src="zonafranca.jpg"  width="50" high="50">         
+            
+                <dl>
+           
+                <dt>Zona Franca</dt> 
+
+                <dt>5:47 p.m</dt>
+
+                <dt>Lunes 27/Abr/2020</dt> 
+
+                  <dt>Portal de la sabana, Éxito, restaurante
+ Mis carnes parrilla,
+primer piso</dt>
+                    
+                    </dl> </a>        
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+       </div><!-- /content -->
+ <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#eventoscercadeti" data-icon="location" class="ui-btn-active"></a></li>
+                        <li><a href="#social" data-icon="comment"></a></li>
+                        <li><a href="#perfil" data-icon="user"></a></li>
+                    </ul>
+                </div>
+                <!-- /navbar -->
+            </div><!-- footer -->
+
+           
+        </div><!-- /page -->         
+                 
+        
+        
+        
+        
+        
+        
+        
+        
+           <div data-role="page" id="titan">
+            <div data-role="header">
+                <a href="#eventosenbogota" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-corner-all ui-btn-left ">No text</a>
+            </div><!-- /header -->
+            
+            <div role="main" class="ui-content">
+            <center>   
+                
+        <img src="Titan.jpg.jpg"  width="200" high="800">
+              
+              
+
+              <dl>
+                <dt>Titan plaza</dt> 
+
+                <dt>10:00 a.m.</dt>
+
+                <dt>Sábado 14/Marz/2020</dt> 
+
+                  <dt>Restaurante k</dt>
+               </dl> 
+
+              <br><br>
+
+                </center>
+              
+          
+        <button type="button" class="btn btn-default">Asistir</button>
+      <br><br>
+      
+     <a href="#pates" class="ui-btn ui-corner-all">Participantes</a>
+        
+                
+                
+                
+                
+            </div><!-- /content -->
+ <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#eventoscercadeti" data-icon="location" class="ui-btn-active"></a></li>
+                        <li><a href="#social" data-icon="comment"></a></li>
+                        <li><a href="#perfil" data-icon="user"></a></li>
+                    </ul>
+                </div>
+                <!-- /navbar -->
+            </div><!-- footer -->
+
+           
+        </div><!-- /page -->         
+            
+            
+            
+            
+         <div data-role="page" id="granestacion">
+ <div data-role="header">
+                <a href="#eventosenbogota" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-corner-all ui-btn-left ">No text</a>
+            </div><!-- /header -->
+            
+            <div role="main" class="ui-content">
+               
+       <center>         
+        <img src="granestacion.jpg.jpg"  width="200" high="800">
+              
+              
+
+              <dl>
+                <dt>Gran estación</dt> 
+
+                <dt>8:00 p.m.</dt>
+
+                <dt>Martes 17/Marz/2020</dt> 
+
+                  <dt>Starbuks</dt>
+               </dl> 
+          </center>       
+
+              <br><br>
+
+
+              
+          
+        <button type="button" class="btn btn-default">Asistir</button>
+      <br><br>
+      
+   
+        
+      <a href="#pato" class="ui-btn ui-corner-all">participantes</a>         
+                
+                
+                
+            </div><!-- /content -->
+ <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#eventoscercadeti" data-icon="location" class="ui-btn-active"></a></li>
+                        <li><a href="#social" data-icon="comment"></a></li>
+                        <li><a href="#perfil" data-icon="user"></a></li>
+                    </ul>
+                </div>
+                <!-- /navbar -->
+            </div><!-- footer -->
+
+           
+        </div><!-- /page -->       
+        
+    -----  
+     
+        
+        
+        
+        <div data-role="page" id="zonafranca">
+       <div data-role="header">
+                <a href="#eventosenbogota" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-corner-all ui-btn-left ">No text</a>
+            </div><!-- /header -->
+            
+            <div role="main" class="ui-content">
+                
+       <center>        
+                
+        <img src="zonafranca.jpg"  width="200" high="800">
+              
+              
+
+              <dl>
+                <dt>Zona Franca</dt> 
+
+                <dt>5:47 p.m.</dt>
+
+                <dt>Lunes 27/Abr/2020</dt> 
+
+                  <dt>Portal de la sabana, Éxito, restaurante
+ Mis carnes parrilla,
+primer piso</dt>
+               </dl> 
+
+                </center>              
+                
+              <br><br>
+
+
+              
+          
+        <button type="button" class="btn btn-default">Asistir</button>
+      <br><br>
+      
+   
+        
+      <a href="#pate" class="ui-btn ui-corner-all">participantes</a>         
+                
+                
+                
+            </div><!-- /content -->
+ <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#eventoscercadeti" data-icon="location" class="ui-btn-active"></a></li>
+                        <li><a href="#social" data-icon="comment"></a></li>
+                        <li><a href="#perfil" data-icon="user"></a></li>
+                    </ul>
+                </div>
+                <!-- /navbar -->
+            </div><!-- footer -->
+
+           
+        </div><!-- /page -->           
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div data-role="page" id="pates">
+       <div data-role="header">
+                <a href="#titan" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-corner-all ui-btn-left ">No text</a>
+            </div><!-- /header -->
+            
+        
+            <div role="main" class="ui-content">
+                <h1>Participantes</h1>
+               
+                
+      <ul data-role="listview" data-inset="true">
+       <li> <img src="Titan.jpg.jpg">
+        <h2>Oscar Riaño</h2>
+       <p>310 2326197</p>
+        </li>          
+      </ul>         
+                
+      <ul data-role="listview" data-inset="true">
+       <li> <img src="Titan.jpg.jpg">
+        <h2>Juan Nieto</h2>
+       <p>312 9896296</p>
+        </li>          
+      </ul>          
+                
+      <ul data-role="listview" data-inset="true">
+       <li> <img src="Titan.jpg.jpg">
+        <h2>Sandra M.</h2>
+       <p>320 5766284</p>
+        </li>          
+      </ul>          
+                
+      <ul data-role="listview" data-inset="true">
+       <li> <img src="Titan.jpg.jpg">
+        <h2>Carlos Salazar</h2>
+       <p>330 6128123</p>
+        </li>          
+      </ul>          
+                
+      <ul data-role="listview" data-inset="true">
+       <li> <img src="Titan.jpg.jpg">
+        <h2>Monica Santana</h2>
+       <p>315 8342132</p>
+        </li>          
+      </ul>          
+                   
+            </div><!-- /content -->
+         <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#eventoscercadeti" data-icon="location" class="ui-btn-active"></a></li>
+                        <li><a href="#social" data-icon="comment"></a></li>
+                        <li><a href="#perfil" data-icon="user"></a></li>
+                    </ul>
+                </div>
+                <!-- /navbar -->
+            </div><!-- footer -->
+
+           
+        </div><!-- /page -->         
+            
+     <div data-role="page" id="pato">
+       <div data-role="header">
+                <a href="#granestacion" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-corner-all ui-btn-left ">No text</a>
+            </div><!-- /header -->
+            
+        
+            <div role="main" class="ui-content">
+                <h1>Participantes</h1>
+               
+                
+      <ul data-role="listview" data-inset="true">
+       <li> <img src="Titan.jpg.jpg">
+        <h2>Oscar Riaño</h2>
+       <p>310 2326197</p>
+        </li>          
+      </ul>         
+                
+      <ul data-role="listview" data-inset="true">
+       <li> <img src="Titan.jpg.jpg">
+        <h2>Juan Nieto</h2>
+       <p>312 9896296</p>
+        </li>          
+      </ul>          
+                
+      <ul data-role="listview" data-inset="true">
+       <li> <img src="Titan.jpg.jpg">
+        <h2>Sandra M.</h2>
+       <p>320 5766284</p>
+        </li>          
+      </ul>          
+                
+      <ul data-role="listview" data-inset="true">
+       <li> <img src="Titan.jpg.jpg">
+        <h2>Carlos Salazar</h2>
+       <p>330 6128123</p>
+        </li>          
+      </ul>          
+                
+      <ul data-role="listview" data-inset="true">
+       <li> <img src="Titan.jpg.jpg">
+        <h2>Monica Santana</h2>
+       <p>315 8342132</p>
+        </li>          
+      </ul>          
+                   
+            </div><!-- /content -->
+         <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#eventoscercadeti" data-icon="location" class="ui-btn-active"></a></li>
+                        <li><a href="#social" data-icon="comment"></a></li>
+                        <li><a href="#perfil" data-icon="user"></a></li>
+                    </ul>
+                </div>
+                <!-- /navbar -->
+            </div><!-- footer -->
+
+           
+        </div><!-- /page -->                 
+   
+ 
+<div data-role="page" id="pate">
+       <div data-role="header">
+                <a href="#zonafranca" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-corner-all ui-btn-left ">No text</a>
+            </div><!-- /header -->
+            
+        
+            <div role="main" class="ui-content">
+                <h1>Participantes</h1>
+               
+                
+      <ul data-role="listview" data-inset="true">
+       <li> <img src="Titan.jpg.jpg">
+        <h2>Oscar Riaño</h2>
+       <p>310 2326197</p>
+        </li>          
+      </ul>         
+                
+      <ul data-role="listview" data-inset="true">
+       <li> <img src="Titan.jpg.jpg">
+        <h2>Juan Nieto</h2>
+       <p>312 9896296</p>
+        </li>          
+      </ul>          
+                
+      <ul data-role="listview" data-inset="true">
+       <li> <img src="Titan.jpg.jpg">
+        <h2>Sandra M.</h2>
+       <p>320 5766284</p>
+        </li>          
+      </ul>          
+                
+      <ul data-role="listview" data-inset="true">
+       <li> <img src="Titan.jpg.jpg">
+        <h2>Carlos Salazar</h2>
+       <p>330 6128123</p>
+        </li>          
+      </ul>          
+                
+      <ul data-role="listview" data-inset="true">
+       <li> <img src="Titan.jpg.jpg">
+        <h2>Monica Santana</h2>
+       <p>315 8342132</p>
+        </li>          
+      </ul>          
+                   
+            </div><!-- /content -->
+         <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#eventoscercadeti" data-icon="location" class="ui-btn-active"></a></li>
+                        <li><a href="#social" data-icon="comment"></a></li>
+                        <li><a href="#perfil" data-icon="user"></a></li>
+                    </ul>
+                </div>
+                <!-- /navbar -->
+            </div><!-- footer -->
+
+           
         </div><!-- /page -->
+    
+            
+       
+       
+        
+            
+            
+            
+            
+            
+                        
+   
+            
+            
+            
+             
+          <div data-role="page" id="chatt"> 
+              <div data-role="header">
+                <a href="#eventoscercadeti" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-corner-all ui-btn-left ">No text</a>
+            </div><!-- /header -->
+       <ul data-role="listview" data-inset="true">
+       <li> <img src="Titan.jpg.jpg">
+        <h2>Marpia del Carmen</h2>
+       <p>Fontibón-Zona Franca</p>
+        </li>          
+      </ul>
+             <br>   
+              <ul data-role="listview" data-inset="true">
+    <li>
+        
+    <dt>Hi, how are u?</dt>
+    
+    </li>
+    <li>
+        
+    
+    <dt align="right">I´m fine, thanks.</dt>
+    </li>
+    <li>
+        
+  
+    <dt>Very good, how long have you been using this application?</dt>
+    </li>
+</ul>
+   
+<table width="100%">
+                    <tr>
+                        <td><input type="text" value=""></td>
+                        <td><a href="#" class="ui-btn ui-icon-navigation ui-btn-icon-notext ui-corner-all">No text</a></td>
+                    </tr>
+                </table>
+                
+   
+                
+                
+                
+            
+
+
+           
+        </div><!-- /page -->      
+                     
+            
+            
+        <div data-role="page" id="amigos">
+             <div data-role="header">
+                <a href="#social" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-corner-all ui-btn-left ">No text</a>
+            </div><!-- /header -->
+
+            
+            <div role="main" class="ui-content">
+                <h1>Amigos</h1>
+               
+      <ul data-role="listview" data-inset="true">
+       <li> <img src="Titan.jpg.jpg">
+        <h6>Valentina Cuellar</h6>
+        <p><small>Engativa</small></p>   
+       <p>315 9255284</p>
+        </li>          
+      </ul>         
+                
+      <ul data-role="listview" data-inset="true">
+       <li> <img src="Titan.jpg.jpg">
+        <h2>Juan Nieto</h2>
+        <p><small>Engativa</small></p>
+       <p>312 9896296</p>
+        </li>          
+      </ul>          
+                
+      <ul data-role="listview" data-inset="true">
+       <li> <img src="Titan.jpg.jpg">
+        <h2>Sandra M.</h2>
+        <p><small>Engativa</small></p>
+       <p>320 5766284</p>
+        </li>          
+      </ul>          
+                
+      <ul data-role="listview" data-inset="true">
+       <li> <img src="Titan.jpg.jpg">
+        <h2>Carlos Salaza</h2>
+        <p><small>Engativa</small></p>
+       <p>330 6128123</p>
+        </li>          
+      </ul>          
+                
+      <ul data-role="listview" data-inset="true">
+       <li> <img src="Titan.jpg.jpg">
+        <h2>Monica Santana</h2>
+        <p><small>Engativa</small></p>
+       <p>315 8342132</p>
+        </li>          
+      </ul>          
+                
+                
+            </div><!-- /content -->
+ <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#eventoscercadeti" data-icon="location" class="ui-btn-active"></a></li>
+                        <li><a href="#social" data-icon="comment"></a></li>
+                        <li><a href="#perfil" data-icon="user"></a></li>
+                    </ul>
+                </div>
+                <!-- /navbar -->
+            </div><!-- footer -->
+
+           
+        </div><!-- /page -->         
+                  
+            
+         <div data-role="page" id="perfil">
+
+            
+            <div role="main" class="ui-content">
+        <center>       <h1>Perfil</h1>
+          
+                 <img src="Titan.jpg.jpg"  width="200" high="800">
+</center> 
+             </center>   
+             <label for="nombre">Nombre:</label>
+<input type="text" name="nombre" id="nombre1" value="">
+                
+                   <label for="nombre">Apellido:</label>
+<input type="text" name="nombre" id="nombre2" value="">
+                
+                   <label for="nombre">Número de celular:</label>
+<input type="text" name="nombre" id="nombre3" value="">
+                
+                   <label for="nombre">correo:</label>
+<input type="text" name="nombre" id="nombre4" value="">
+                
+                   <label for="nombre">Cambiar contraseña:</label>
+<input type="text" name="nombre" id="nombre5" value="">
+                
+                  
+                
+   <a href="#agregarevento" class="ui-btn ui-corner-all">Agregar evento</a>             
+                
+                
+      <a href="#ingresar" class="ui-btn ui-corner-all">Cerrar sesión</a>          
+                
+            </div><!-- /content -->
+             <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#eventoscercadeti" data-icon="location"></a> </li>
+                        <li><a href="#social" data-icon="comment"></a></li>
+                        <li><a href="#perfil" data-icon="user" class="ui-btn-active"></a> </li>
+                    </ul>
+                </div>
+                <!-- /navbar -->
+            </div><!-- footer -->
+             
+          </div>
+            
+            
+            
+            
+                <div data-role="page" id="agregarevento">
+                     <div data-role="header">
+                <a href="#perfil" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-corner-all ui-btn-left ">No text</a>
+            </div><!-- /header -->
+
+            
+            <div  role="main" class="ui-content">
+      <center>          <h1>Agregar evento</h1>
+          
+                 <img src="Titan.jpg.jpg"  width="200" high="800">
+     </center>
+                
+             <label for="nombre">Barrio:</label>
+<input type="text" name="nombre" id="nombre6" value="">
+                
+                   <label for="nombre">Hora:</label>
+<input type="text" name="nombre" id="nombre7" value="">
+                
+                   <label for="nombre">Fecha:</label>
+<input type="text" name="nombre" id="nombre8" value="">
+                
+                   <label for="nombre">Lugar :</label>
+<input type="text" name="nombre" id="nombre9" value="">
+                
+        
+                  
+                
+   <a href="#zonafranca" class="ui-btn ui-corner-all">Publicar</a>             
+                
+                
+              
+                
+            </div><!-- /content -->
+          <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#eventoscercadeti" data-icon="location"></a> </li>
+                        <li><a href="#social" data-icon="comment"></a></li>
+                        <li><a href="#perfil" data-icon="user" class="ui-btn-active"></a> </li>
+                    </ul>
+                </div>
+                <!-- /navbar -->
+            </div><!-- footer -->           
+           </div>       
+            
+            
+    
+        
+        
+            
     </body>
 </html>
